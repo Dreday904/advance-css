@@ -1,0 +1,41 @@
+@import url( 'https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
+@import "reset";
+
+body {
+  font-family: 'Roboto', sans-serif;
+  // background: purple;
+}
+
+h1 {
+  font-weight: 100;
+  font-size: 50px;
+}
+
+// Top to bottom is Rows, left to right is columns
+
+.wrapper{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  // grid-template-rows: 40px 450px 50px;
+  grid-auto-rows:minmax(200px, auto);
+}
+
+.box-1{
+  background: red;
+  height: 200px;
+}
+.box-2{
+  background: yellow;
+}
+.box-3{
+  background: purple;
+}
+.box-4{
+  background: blue;
+}
+.box-5{
+  background: orange;
+}
+.box-6{
+  background: grey;
+}
